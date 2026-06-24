@@ -1,0 +1,33 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "chefkart-8933c",
+          "appId": "1:329240607872:android:e4dc4ccfcdc81766a17a65",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "chefkart-8933c",
+          "configurations": {
+            "android": "1:329240607872:android:e4dc4ccfcdc81766a17a65",
+            "ios": "1:329240607872:ios:aad13b03ca16d1cea17a65",
+            "macos": "1:329240607872:ios:aad13b03ca16d1cea17a65",
+            "web": "1:329240607872:web:e7a7209d0b099627a17a65",
+            "windows": "1:329240607872:web:3f3284560d6c8deda17a65"
+          }
+        }
+      }
+    }
+  }
+}
+
